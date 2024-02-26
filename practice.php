@@ -29,3 +29,7 @@ var_dump($x);
 echo 'this is simple string \n'; //-------->single quoted /slash is treat as litreals
 echo "<br>";
 echo "this is sample string in dubbule quate\n";//dubble quate /slash is treat as escape squence
+echo "<br>";
+// numeric in strings
+$m=1+"10 hello";
+echo $m;
