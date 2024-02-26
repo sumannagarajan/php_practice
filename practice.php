@@ -20,8 +20,12 @@ $d=0b111100010101010;
 echo $d;
 echo "<br>";
 //casting-------> one type to another data type
-
 $x=10;
 $x=(float)$x;
 echo $x;
 var_dump($x);
+//strings
+
+echo 'this is simple string \n'; //-------->single quoted /slash is treat as litreals
+echo "<br>";
+echo "this is sample string in dubbule quate\n";//dubble quate /slash is treat as escape squence
