@@ -1,14 +1,27 @@
- <?php
-//simple echo statement in php
-echo "hellow";
-?>
-<?= "<br>";?>
 <?php
-echo "this is suman nagarajan";
-?>
+#types
+// $value = null;
+// echo "$value";
+// $a=true;
+// if($a)
+// {
+//     echo "yes a is true\n";
+// }
+//integers
 
-<?php
-echo "learning php is fun.\n";?>
-<?php
-#this is one line comment --------->this is shell style commment
-//this is one line comment --------->this is c++ style comment
+
+$b=0o123; //it will print octal value---->equal to some specify decimal value
+echo ($b);
+echo "<br>";
+$c=123409924098;  //it will print decimal value
+echo ($c);
+echo "<br>";
+$d=0b111100010101010;
+echo $d;
+echo "<br>";
+//casting-------> one type to another data type
+
+$x=10;
+$x=(float)$x;
+echo $x;
+var_dump($x);
